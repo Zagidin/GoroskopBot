@@ -9,15 +9,12 @@ start_commands_buttons = ReplyKeyboardMarkup(
 )
 
 button_1 = KeyboardButton(
-    text="🛤️ Число жизненного пути"
-)
-button_2 = KeyboardButton(
     text="🔮 Число Судьбы"
 )
-button_3 = KeyboardButton(
-    text="💞 Совместимость с партнёром"
+button_2 = KeyboardButton(
+    text="💞 Совместимость с партнёром или другом 💪"
 )
-button_4 = KeyboardButton(
+button_3 = KeyboardButton(
     text="💖 Число Души и Внутренние желания"
 )
 
@@ -28,6 +25,5 @@ start_commands_buttons.row(
     button_2
 )
 start_commands_buttons.add(button_3)
-start_commands_buttons.add(button_4)
 
 start_commands_buttons.add(button_next) # Кнопка для перелистывания
